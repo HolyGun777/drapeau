@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-red { background-color: red; }
+.bg-green { background-color: green; }
+.bg-yellow { background-color: yellow; }
+.bg-blue { background-color: blue; }
+.bg-white { background-color: white; }
+.bg-black { background-color: black; }
+.dot {
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.p-10 { padding: 10px; }
+
+.size { height: 150px; width: 100px;}
+
+.row { display: flex; }
+
+.jus-center { display: flex; justify-content: center; }
+
+.container { display: flex; flex-direction: column; }
